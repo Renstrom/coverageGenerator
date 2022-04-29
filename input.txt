@@ -1,0 +1,5 @@
+iotdb,/home/ren/iotdb,/home/ren/jgit-miner,mvn clean,mvn clean -q post-integration-test -Dmaven.test.failure.ignore=true -Djacoco.skip=false,mvn jacoco:report-aggregate,mvn jacoco:report
+cloudstack,/home/ren/cloudstack,/home/ren/jgit-miner,mvn clean,mvn clean verify -q -Pquality -DprofileIdEnabled=true -Dmaven.test.failure.ignore=true -Djacoco.skip=false,mvn jacoco:report-aggregate,mvn jacoco:report
+druid,/home/ren/druid,/home/ren/jgit-miner,mvn clean,mvn install -q -Dmaven.test.failure.ignore=true -Djacoco.skip=false,mvn jacoco:report-aggregate,mvn jacoco:report
+dubbo,/home/ren/dubbo,/home/ren/jgit-miner,mvn clean,mvn install -q -Dmaven.test.failure.ignore=true -Djacoco.skip=false,mvn jacoco:report-aggregate,mvn jacoco:report
+shardingsphere,/home/ren/shardingsphere,/home/ren/jgit-miner,mvn clean,mvn install -q -Dmaven.test.failure.ignore=true -Djacoco.skip=false,mvn jacoco:report-aggregate,mvn jacoco:report
